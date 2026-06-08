@@ -12,7 +12,6 @@ dashboard_epidemic/
 ├── export_data.py        # 导出数据供大屏使用
 ├── serve_dashboard.py    # 启动本地 HTTP 服务器
 ├── index.html            # 可视化大屏页面（支持日期选择）
-├── bouncing_ball.html    # 红色小球三角形反弹动画
 ├── 香港各区疫情数据_20250322.xlsx  # 原始数据文件
 ├── dashboard_data.json   # 处理后的数据（运行 export_data.py 生成）
 └── epidemic_trends.png   # 趋势图（运行 plot_data.py 生成）
@@ -63,9 +62,6 @@ python serve_dashboard.py
 - 各地区确诊分布（横向柱状图）
 - 病例增长率变化图
 - 风险等级分布图（饼图）
-
-### 7. bouncing_ball.html - 小球动画
-一个有趣的红色小球在三角形区域内反弹的动画页面，带有交互控制按钮。
 
 ## 环境配置
 
